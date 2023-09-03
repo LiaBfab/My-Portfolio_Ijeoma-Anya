@@ -68,3 +68,32 @@ p {
 .project-description {
   padding: 103px 0px 103px 61px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 52px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+  }
+  .hero {
+    padding: 80px 10px;
+  }
+  .hero h2 {
+    font-size: 12px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
