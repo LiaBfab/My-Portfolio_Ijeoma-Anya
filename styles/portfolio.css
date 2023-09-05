@@ -92,14 +92,15 @@ p {
 .about img {
   border-radius: 14px;
 }
-.subhead {
-  padding-right: 80px;
+. subhead {
+  margin: 20px;
+  text-align: center;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 52px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h2 {
     font-size: 44px;
@@ -125,15 +126,14 @@ p {
     text-align: center;
   }
   .about {
-    padding: 80px 20px;
     text-align: center;
+    padding: 80px 10px;
   }
   .about h1 {
     font-weight: 700;
-    font-size: 36px;
-    text-align: center;
+    font-size: 46px;
+    margin-top: 0;
   }
-  .subhead {
-    padding: 0;
-  }
+}
+@media (min-width: 1200px) {
 }
