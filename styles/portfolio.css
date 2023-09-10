@@ -7,7 +7,7 @@
 }
 body {
   font-family: var(--default-font-family);
-  background-color: var(--secondary-color);
+  background-color: #fff;
 }
 h1,
 h2,
@@ -25,6 +25,9 @@ h1 {
 h2 {
   font-size: 74px;
   font-weight: bold;
+}
+h3 {
+  font-size: 48px;
 }
 p {
   font-size: 16px;
@@ -55,11 +58,47 @@ nav a {
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--myButton-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--myButton-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--myButton-color);
+}
+footer a {
+  color: var(--myButton-color);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
 
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero h2 {
   font-family: var(--default-font-family);
@@ -73,9 +112,7 @@ nav a {
   font-size: 46px;
   margin: 0;
 }
-.home-section {
-  background-color: #e5e5e5;
-}
+
 .btn-myButton {
   background-color: var(--myButton-color);
   border-radius: 4px;
@@ -96,7 +133,7 @@ nav a {
   padding: 103px 0px 103px 61px;
 }
 .section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .section h1 {
@@ -170,7 +207,7 @@ nav li.active a {
   }
   .section {
     text-align: center;
-    padding: 80px 10px;
+    padding: 60px 10px;
   }
   .section h1 {
     font-weight: 700;
