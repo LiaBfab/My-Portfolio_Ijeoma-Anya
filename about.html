@@ -28,75 +28,127 @@
     <title>About Me - Ijeoma L. Anya</title>
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <img
-          src="images/logo.png"
-          class="logo d-none d-md-block"
-          width="60"
-          height="60"
-          alt="Ijeoma's personal logo"
-        />
-        <img
-          src="images/logo.png"
-          class="logo d-block d-md-none"
-          width="30"
-          height="30"
-          alt="Ijeoma's personal logo"
-        />
-        <ul>
-          <li>
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li class="active">
-            <a href="/about.html" title="About Ijeoma">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Ijeoma's work">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Contact Ijeoma">Contact</a>
-          </li>
-        </ul>
+    <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+            <img src="/images/logo.png" alt="Ijeoma's Logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pe-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/"
+                  title="Homepage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" href="/about.html" title="About Ijeoma"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" href="/work.html" title="Ijeoma's work"
+                  >Work</a
+                >
+              </li>
+              <li class="nav-item pe-5">
+                <a class="nav-link" href="/contact.html" title="Contact Ijeoma"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://github.com/LiaBfab"
+                  target="_blank"
+                  title="My github profile"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
+                  target="_blank"
+                  title="My linkedin profile"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
     <div class="section container">
-      <div class="row">
+      <div class="row mb-5">
         <div class="col-md-6">
-          <div class="subhead">
-            <h1 class="mt-5 mb-5">Hi, I am Ijeoma <br />Lorretta Anya</h1>
-            <h2 class="mb-4">
-              Frontend Developer/Data Analyst, based in Nigeria.
-            </h2>
-            <p class="mb-5 opacity-75">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
-            </p>
-            <a
-              href="/work.html"
-              title="Ijeoma's work"
-              class="btn btn-myButton mb-4"
-              >View all project</a
-            >
+          <div class="skill-row">
+            <img
+              class="my-image1 opacity-75"
+              src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif"
+              alt=""
+            />
           </div>
         </div>
         <div class="col-md-6">
-          <img
-            src="/images/aboutpic.png"
-            class="img-fluid"
-            alt="Ijeoma's picture"
-          />
+          <div class="subhead mb-6 mt-5 text-center">
+            <h1 class="mb-4">About Me</h1>
+            <p class="mb-5 opacity-95">
+              I am a Statistician/Data Analyst with a passion for technology and
+              willingness to explore new technologies. With the diversity of my
+              career experience, I bring a special blend of skills to the tech
+              field. Currently, I'm walking my tech journey with SheCodes,
+              enjoying every assigned complex projects that requires me to think
+              creatively and outside the box.
+            </p>
+            <div class="d-flex justify-content-evenly">
+              <a href="docs/Ijeoma_CV.pdf" download class="btn btn-cv"
+                >Download CV</a
+              >
+              <a
+                href="/work.html"
+                title="Ijeoma's work"
+                class="btn btn-myButton"
+                >View all project</a
+              >
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="subhead mb-6 mt-5">
+        <h2 class="mb-4">My Skills</h2>
+        <p>Technologies I’ve been working with recently</p>
+      </div>
+    </div>
+    <div class="tech">
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css3"></i>
+      <i class="fa-brands fa-square-js"></i>
+      <i class="fa-brands fa-bootstrap"></i>
+      <i class="fa-brands fa-github"></i>
     </div>
     <div class="container">
       <footer>
         <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
           <div>
             <h3>Work Inquiry</h3>
-            <p class="opacity-75">Let's work together</p>
+            <p class="opacity-75">Let's work together 🤝</p>
           </div>
           <div>
             <a
@@ -108,34 +160,46 @@
             >
           </div>
         </div>
-        <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:ijeomalorretta@gmail.com" class="email-link"
-            >ijeomalorretta@gmail.com</a
-          >
+
+        <div class="socials text-center mb-0">
+          <div class="social-links d-flex justify-content-center">
+            <a href="tel:+2348167005933" title="Call me"
+              ><i class="fa-solid fa-square-phone"></i
+            ></a>
+
+            <a
+              href="mailto:ijeomalorretta@gmail.com"
+              target="_blank"
+              title="Email me"
+            >
+              <i class="fa-regular fa-envelope"></i
+            ></a>
+            <a
+              href="https://github.com/LiaBfab"
+              target="_blank"
+              title="My github profile"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
+              target="_blank"
+              title="My linkedin profile"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+
+          <hr />
+
+          <p class="mt-0">
+            ✌️ This website was coded by Ijeoma L. Anya ©2023, and is
+            <a
+              href="https://github.com/LiaBfab/My-Portfolio---Ijeoma-Anya"
+              target="_blank"
+              title="This project on github"
+              >open-sourced</a
+            >
+          </p>
         </div>
-        <div class="social-links d-flex justify-content-center">
-          <a
-            href="https://github.com/LiaBfab"
-            target="_blank"
-            title="My github profile"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a
-            href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
-            target="_blank"
-            title="My linkedin profile"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </div>
-        <p class="text-center mt-5">
-          ✌️ This website was coded by Ijeoma Anya, and is
-          <a
-            href="https://github.com/LiaBfab/My-Portfolio---Ijeoma-Anya"
-            target="_blank"
-            title="This project on github"
-            >open-sourced</a
-          >
-        </p>
       </footer>
     </div>
   </body>
