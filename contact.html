@@ -48,13 +48,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item pe-3">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/"
-                  title="Homepage"
-                  >Home</a
-                >
+                <a class="nav-link" href="/" title="Homepage">Home</a>
               </li>
               <li class="nav-item pe-3">
                 <a class="nav-link" href="/about.html" title="About Ijeoma"
@@ -67,7 +61,11 @@
                 >
               </li>
               <li class="nav-item pe-5">
-                <a class="nav-link" href="/contact.html" title="Contact Ijeoma"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/contact.html"
+                  title="Contact Ijeoma"
                   >Contact</a
                 >
               </li>
@@ -94,101 +92,124 @@
         </div>
       </nav>
     </div>
-    <div class="section container">
-      <div class="subhead">
-        <h1 class="mb-5">Let's get in touch!</h1>
-        <h3>Email</h3>
-        <p>
-          <a
-            href="mailto:ijeomalorretta@gmail.com"
-            title="Email me"
-            class="opacity-75 link-underline-primary"
+    <div class="content">
+      <h1 class="text-center">Get in Touch!</h1>
+      <p class="text-center"></p>
+      <div class="container">
+        <footer>
+          <div
+            class="contact-box justify-content-between mb-5 d-block d-md-flex"
           >
-            ijeomalorretta@gmail.com</a
-          >
-        </p>
-        <h3>Linkedln</h3>
-        <p>
-          <a
-            href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
-            target="_blank"
-            class="opacity-75 link-underline-primary"
-            title="Ijeoma linkedin profile"
-          >
-            Ijeoma Anya</a
-          >
-        </p>
-        <h3>Github</h3>
-        <p>
-          <a
-            href="https://github.com/LiaBfab"
-            target="_blank"
-            class="opacity-75 link-underline-primary"
-            title="Ijeoma github profile"
-          >
-            LiaBfab</a
-          >
-        </p>
+            <div id="contact">
+              <div class="row d-flex justify-content-evenly">
+                <div class="contact-left">
+                  <h3>Work Inquiry</h3>
+                  <p class="opacity-75">
+                    Drop me a message, Let's work together 🤝
+                  </p>
+                  <div class="social-icons mt-5">
+                    <a
+                      href="https://github.com/LiaBfab"
+                      target="_blank"
+                      title="My github profile"
+                      ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
+                      target="_blank"
+                      title="My linkedin profile"
+                      ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                  </div>
+                  <p><i class="fa-solid fa-square-phone"></i> +2348167005933</p>
+                  <p>
+                    <i class="fa-regular fa-envelope"></i>
+                    ijeomalorretta@gmail.com
+                  </p>
+                </div>
+
+                <div class="contact-right">
+                  <form
+                    action="mailto:ijeomalorretta@gmail.com"
+                    method="post"
+                    enctype="text/plain"
+                  >
+                    <input
+                      type="text"
+                      name="Name"
+                      placeholder="Your Name"
+                      required
+                    />
+                    <input
+                      type="email"
+                      name="Email"
+                      placeholder="Your Email"
+                      required
+                    />
+                    <textarea
+                      name="Message"
+                      rows="6"
+                      cols="32"
+                      placeholder="Your Message"
+                    >
+                    </textarea>
+                    <button type="submit" class="btn btn-contact">
+                      Submit
+                    </button>
+                  </form>
+                  <span id="msg"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="socials text-center mb-0">
+            <div class="social-links d-flex justify-content-center">
+              <a href="tel:+2348167005933" title="Call me"
+                ><i class="fa-solid fa-square-phone"></i
+              ></a>
+
+              <a
+                href="mailto:ijeomalorretta@gmail.com"
+                target="_blank"
+                title="Email me"
+              >
+                <i class="fa-regular fa-envelope"></i
+              ></a>
+              <a
+                href="https://github.com/LiaBfab"
+                target="_blank"
+                title="My github profile"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
+                target="_blank"
+                title="My linkedin profile"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+
+            <hr />
+
+            <p class="mt-0">
+              ✌️ This website was coded by Ijeoma L. Anya ©2023, and is
+              <a
+                href="https://github.com/LiaBfab/My-Portfolio---Ijeoma-Anya"
+                target="_blank"
+                title="This project on github"
+                >open-sourced</a
+              >
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
-    <div class="container">
-      <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-          <div>
-            <h3>Work Inquiry</h3>
-            <p class="opacity-75">Let's work together 🤝</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              title="Contact Ijeoma"
-              class="btn btn-myButton mt-3"
-            >
-              Contact me</a
-            >
-          </div>
-        </div>
-
-        <div class="socials text-center mb-0">
-          <div class="social-links d-flex justify-content-center">
-            <a href="tel:+2348167005933" title="Call me"
-              ><i class="fa-solid fa-square-phone"></i
-            ></a>
-
-            <a
-              href="mailto:ijeomalorretta@gmail.com"
-              target="_blank"
-              title="Email me"
-            >
-              <i class="fa-regular fa-envelope"></i
-            ></a>
-            <a
-              href="https://github.com/LiaBfab"
-              target="_blank"
-              title="My github profile"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/ijeoma-anya-48931bb5/"
-              target="_blank"
-              title="My linkedin profile"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </div>
-
-          <hr />
-
-          <p class="mt-0">
-            ✌️ This website was coded by Ijeoma L. Anya ©2023, and is
-            <a
-              href="https://github.com/LiaBfab/My-Portfolio---Ijeoma-Anya"
-              target="_blank"
-              title="This project on github"
-              >open-sourced</a
-            >
-          </p>
-        </div>
-      </footer>
-    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script/app.js"></script>
   </body>
 </html>
