@@ -1,2 +1,2 @@
 # My Portfolio - Ijeoma L. Anya
-Ijeoma Lorretta Anya - a passionate Front-end Developer, Data Analyst & Statistician based in Nigeria. she is a pure definit..
+Ijeoma Lorretta Anya - a passionate Front-end Developer, Data Analyst & Statistician based in Nigeria. Currently walking her tech journey with SheCodes....
