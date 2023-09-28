@@ -39,8 +39,8 @@ nav a {
   color: #26014e;
 }
 .nav-item .active {
-  color: #44038b !important;
-  font-weight: bold;
+  color: #980382 !important;
+  font-weight: 500;
 }
 
 h1,
